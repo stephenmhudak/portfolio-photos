@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+.input {
+  @apply 
+    px-8 py-2 
+    text-white 
+    transition duration-200 ease-in-out
+    bg-[rgba(255,255,255,.15)] hover:bg-[rgba(255,255,255,.22)]
+    backdrop-blur-sm rounded-full
+    border border-[rgba(255,255,255,.2)] hover:border-[rgba(255,255,255,.4)]
+    shadow-md shadow-[rgba(150,150,150,.3)]
+    hover:shadow-md hover:shadow-[rgba(255,255,255,.3)]
+    focus:outline-none focus:ring-2 focus:ring-white;
+}
